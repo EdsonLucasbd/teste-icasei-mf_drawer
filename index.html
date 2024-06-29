@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <title>Drawer</title>
+</head>
+<body>
+  <div id="container">
+    <nav>
+      <h2>Menu</h2>
+      <ul>
+          <li>
+            <a href="/mf_videos/videos.html" aria-label="Acessar os vídeos">
+              <i data-feather="youtube" aria-hidden="true"></i>
+              Vídeos
+          </a>
+          </li>
+          <li>
+            <a href="/mf_videos/favoritos.html" aria-label="Acessar seus favoritos">
+              <i data-feather="star" aria-hidden="true"></i>
+              Favoritos
+          </a>
+          </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="content">
+    <iframe src="/mf_videos/src/videos.html" frameborder="0"></iframe>
+  </div>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
